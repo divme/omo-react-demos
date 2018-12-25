@@ -1,7 +1,12 @@
 module.exports = {
-  entry: './main.js',
+  entry: './src/main.js',
   output: {
-    filename: 'output/bundle.js'
+    filename: 'bundle.js'
+  },
+  devServer: {
+    host:"0.0.0.0",
+    compress: true,
+    port: 5000
   },
   module: {
     rules:[
