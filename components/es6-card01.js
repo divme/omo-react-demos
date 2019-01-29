@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import styles from "es6-card01.css";
+// import "es6-card01.css";
 
 export default class  Card01 extends React.Component{
     render() {
